@@ -1,0 +1,17 @@
+name: RemovePlayerData
+version: '${version}'
+main: art.ryanstew.removeplayerdata.RemovePlayerData
+api-version: '1.20'
+author: RuntimeRyn
+commands:
+    removeplayerdata:
+        description: Remove the user data of a player!
+        permission: removeplayerdata.use
+        aliases: [deleteplayerdata, rpd, dpd]
+permissions:
+    removeplayerdata.use:
+        description: Permission to use /removeplayerdata!
+        default: op
+    removeplayerdata.reload:
+        description: Permission to reload the RemovePlayerData plugin.
+        default: op

@@ -1,0 +1,5 @@
+# The prefix of RemovePlayerData's messages.
+prefix: "&dRemove Player Data &7» "
+
+# The hex color of the kick message when a player's data gets removed while they're online.
+kick-message-hex: "#FF00FF"
